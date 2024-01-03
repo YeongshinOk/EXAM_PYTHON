@@ -1,0 +1,8 @@
+year = int(input("연도"))
+month = int(input("월"))
+day = int(input("일"))
+hour = int(input("시"))
+minute = int(input("분"))
+second = int(input("초"))
+print(year,month,day, sep="-",end="T")
+print(hour,minute,second, sep=":")
